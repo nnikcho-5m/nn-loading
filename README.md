@@ -5,5 +5,5 @@
 3. Ensure it in cfg
 4. Set the audio, video and logo
 5. Enjoy the loading
-#Preview 
-![image alt](blob:https://www.image2url.com/ae63cc2b-8a18-4afe-a0d7-a976aaab2aca)
+# Preview 
+![image alt](https://www.image2url.com/ae63cc2b-8a18-4afe-a0d7-a976aaab2aca)
