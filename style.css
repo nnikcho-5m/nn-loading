@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+    font-family: Sofia Sans;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black; 
+}
+
+#video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px); 
+    background-color: #387dd73a; 
+    pointer-events: none; 
+}
+
+@keyframes shake {
+    0% { transform: translate(-0%, -0%) rotate(0deg); }
+    25% { transform: translate(-0%, -0%) rotate(5deg); }
+    50% { transform: translate(-0%, -0%) rotate(-5deg); }
+    75% { transform: translate(-0%, -0%) rotate(5deg); }
+    100% { transform: translate(-0%, -0%) rotate(0deg); }
+}
+
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.container img {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #387dd79f;
+    padding: 5px; 
+    box-sizing: border-box;
+    position: relative;
+    z-index: 5;
+    animation: shake 1s infinite;
+}
+
+#overlay-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(28px); 
+    background-color: #387dd73a; 
+    pointer-events: none; 
+    border-radius: 50%;
+}
