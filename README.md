@@ -6,4 +6,4 @@
 4. Set the audio, video and logo
 5. Enjoy the loading
 # Preview 
-[![Watch the video](https://imgur.com/gUTR8p3)]
+https://github.com/user-attachments/assets/d84f8b21-4872-4d2d-8785-1d4a2faab3d0
