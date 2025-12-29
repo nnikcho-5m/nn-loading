@@ -1,7 +1,7 @@
-Developers: nnikcho
-How to set
-Install nn-loading.zip
-Unzip and place it in the root folder
-Ensure it in cfg
-Set the audio, video and logo
-Enjoy the loading
+# Developers: nnikcho
+# How to set
+1. Install nn-loading.zip
+2. Unzip and place it in the root folder
+3. Ensure it in cfg
+4. Set the audio, video and logo
+5. Enjoy the loading
