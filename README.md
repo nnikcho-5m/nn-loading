@@ -1,4 +1,3 @@
-# nn-loading
 # Developers: nnikcho
 
 # How to set
