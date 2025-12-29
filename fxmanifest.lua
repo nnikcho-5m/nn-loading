@@ -8,5 +8,4 @@ loadscreen 'web/index.html'
 
 files {
     "web/*",
-    "web/assets/*",
 }
